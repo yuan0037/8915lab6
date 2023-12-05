@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "clusterName": {
+      "value": "aks101cluster"
+    },
+    "osDiskSizeGB": {
+      "value": 0
+    },
+    "agentCount": {
+      "value": 3
+    },
+    "agentVMSize": {
+      "value": "standard_d2s_v3"
+    },
+    "dnsPrefix": {
+      "value": "8915"
+    },
+    "linuxAdminUsername": {
+      "value": "boyuan"
+    },
+    "sshRSAPublicKey": {
+      "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCsW0val8x3vkstJQ0el/WpshsARLDvMKkHTrFjFeAQj1ONi3xW0y7YFjbKV4JkSnmINOt1yt5GUD8mHx1mM7HXyCuJz8vhlwF3jlSdVv2gNgQ7XmEDOVg02AQqGYtEC6InPXjBOJfkx8do97mfEGIbZQ2uSn414ukcVoUJjxXr/zZfWpyQLkfTRlECZOhsuj+pLSSRST6Yx4/+PHw9MX534MnxeJUKC6kCtOrGu5BtoAoBDZSx6I2e3cbkJErnOHpBx5AlNPtJnFUL0Se6hosanu/XK1fUFrdZKk7QOc+bjmIR/6KbfZO8YQDr3ptYTjg2KI2UVsLHxXjqx27ce4JQo0RwcrY4/eMvZGCsh6Dt1z1lrTbTEr2NoFF+fB9pfm3u4lLB9fm9m0fMBmK0Ii37UUCnQU1RpGsyuq/VXJ9qaVKhD1ayt484fooSjvJ2mD6tcsEZ7bkoCHF5JKWUgZFnIGfExSKZJusA7Ube5SsYT9faNZ0AFmsij/bpsQPj//k= generated-by-azure"
+    }
+  }
+}
